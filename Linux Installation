@@ -1,1 +1,5 @@
+Installing Ubintu and VMware Workstation Pro on my laptop.
 
+1. Installed Ubuntu 24.04.3 and VMware Workstation Pro 17.6.4
+2. Run VMware Workstation and create new virtual machine with Ubuntu iso file
+3. Installed Ubuntu successfully on VMware.
