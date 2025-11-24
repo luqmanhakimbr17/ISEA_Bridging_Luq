@@ -68,60 +68,7 @@ Important for workgroups or shared office environments.
 These factors may outweigh pure cost in certain use cases.
 
 
- 
 
- 
-
- 
-
- 
-
-MU BRG-ISEA: Introduction to Server Environments and Architectures 
-
-Reflective Learning Journal 
-
- 
-
- 
-
- 
-
- 
-
-
-Introduction: 
-
-This journal documents my practical learning journey throughout the bridging module. The objective was to transition from theoretical concepts to hands-on proficiency in managing server infrastructures, spanning from local virtualized environments to cloud-based deployments. This reflection will detail my discovery process, problem-solving approaches, tools utilised, and the insights gained from each lab and the relevance to contemporary IT roles. 
-
-Installing a Linux Environment on Your PC 
-
-The first step involved setting up a Linux environment using VMware Workstation Pro. The process required downloading the VMware Workstation Pro, Ubuntu 22.04.3 LTS iso disc image file, creation of a new virtual machine and configuring the virtual machine parameters such as RAM, CPU cores, and disk size. 
-
-  
-
-This lab introduced the systemd service manager, the default in modern Ubuntu systems. This underscores the importance of persistent service configuration in maintaining reliable uptime, a critical concern for any system administrator responsible for production systems. 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Difference when apache2 is installed is port 80 being used/allowed, however earlier commands have port 80 allowed, hence, shows no difference. 
-
- 
 
  
 
@@ -153,57 +100,24 @@ The find and grep commands were explored for efficient file system navigation an
 
 These tools are critical for troubleshooting and log analysis, allowing administrators to quickly pinpoint issues without manually inspecting numerous files. This skill directly translates to roles in technical support and DevOps, where rapid problem identification is key. 
 
-Total Cost of Ownership (TCO) in Printers 
 
-Based on TCO which printer is the “best”? 
+7. Provisioning and Securing a Cloud VM (AWS EC2)
 
-For determining which printer is "best" based on TCO, the answer depends significantly on the usage context. Traditional inkjet printers typically have lower initial costs but higher ongoing expenses for consumables. Laser printers involve greater upfront investment but usually offer lower long-term operational costs. The most economical choice emerges from analyzing the total expenses over the intended usage period rather than simply comparing purchase prices. 
-
-Would your answer be the same for a home user who prints 5 pages per week? 
-
-When considering a home user with minimal printing needs, the TCO comparison shifts considerably. For someone printing only occasionally, the lower initial cost of basic printers might outweigh the long-term savings of more efficient models. The specific usage pattern and volume requirements are crucial factors that can change which option proves most cost-effective. 
-
-What other factors could/should we have considered apart from the TCO? 
-
-Beyond direct financial considerations, several non-monetary factors deserve attention. Print quality requirements, speed needs, reliability, and environmental impact all influence the suitability of different printer types. For document-intensive environments, durability and maintenance requirements become significant, while for creative work, color accuracy and media compatibility may take priority. 
-
-Knowing something about the cost structure of printers, what would you look for in a large workgroup printer? 
-
-For workgroup printers serving multiple users, different considerations come into play. High-volume capabilities, network integration, and robust construction become more important than for individual use. The ability to handle heavy usage patterns while maintaining performance and minimizing downtime becomes a key differentiator. 
-
-What is the time period where both printers will cost the same? 
-
-The point where different printers reach cost parity depends on their specific cost structures and usage patterns. This breakeven analysis helps determine when the long-term savings of a more expensive model offset its higher initial price, which varies based on individual circumstances and printing habits. 
-
-7. Provisioning and Securing a Cloud VM (AWS EC2) 
-
-Unable to attempt as I do not access to AWS. 
+Creating a Cloud VM using Azure Web Services
 
 Reading was done and this is what i have learnt. Provisioning a cloud VM involves selecting an appropriate instance type, operating system image, and region. A critical security practice is the configuration of security groups, which act as a built-in firewall. The use of key pairs for SSH authentication, rather than passwords, is a fundamental security measure in the cloud. The core concepts of provisioning and securing a server are consistent across platforms, even if the specific management interface differs. This is a fundamental skill for cloud administration. 
+
+<img width="350" height="300" alt="image" src="https://github.com/user-attachments/assets/8ea656d7-4eb2-4c54-b51c-af0077c5940b" />
+
+<img width="350" height="300" alt="image" src="https://github.com/user-attachments/assets/455f59ed-bac0-43c4-a7c1-f4b6c9af2bb8" />
+
+<img width="350" height="300" alt="image" src="https://github.com/user-attachments/assets/37f7e7ed-f8e3-4792-9f00-13d57351488b" />
+
+<img width="350" height="300" alt="image" src="https://github.com/user-attachments/assets/13c83a77-9264-418b-96e1-79fd49df086b" />
 
 8. Writing Bash Scripts and Using Regular Expressions 
 
 Automation is a cornerstone of efficient IT operations. In this lab, I wrote bash scripts to automate routine tasks, such as a script that updates the system packages and checks disk space. Understanding scripting and regex is what separates a junior administrator from a senior one, enabling the automation of complex deployment and monitoring tasks, a core principle of DevOps. 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
 
  
 
