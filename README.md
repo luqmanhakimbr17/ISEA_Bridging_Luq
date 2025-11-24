@@ -127,7 +127,7 @@ SSH using Azure CLI
 
 Automation is a cornerstone of efficient IT operations. In this lab, I wrote bash scripts to automate routine tasks, such as a script that updates the system packages and checks disk space. Understanding scripting and regex is what separates a junior administrator from a senior one, enabling the automation of complex deployment and monitoring tasks, a core principle of DevOps. 
 
- <img width="350" height="300" alt="Screenshot 2025-11-16 015142" src="https://github.com/user-attachments/assets/a3dd45cc-7f14-46f7-9a4f-1ddc9cd7c2b7" />
+<img width="350" height="300" alt="Screenshot 2025-11-16 015142" src="https://github.com/user-attachments/assets/a3dd45cc-7f14-46f7-9a4f-1ddc9cd7c2b7" />
 <img width="350" height="300" alt="Screenshot 2025-11-16 015335" src="https://github.com/user-attachments/assets/e2784dda-2974-4cbe-b4e5-41b4d00b2fd9" />
 <img width="350" height="300" alt="Screenshot 2025-11-16 015403" src="https://github.com/user-attachments/assets/cc717d53-865c-45a9-87dc-4459ff9e6f2a" />
 <img width="350" height="300" alt="Screenshot 2025-11-16 015547" src="https://github.com/user-attachments/assets/0419a2c8-e695-4645-b97d-c69984a26fec" />
@@ -157,6 +157,9 @@ If not found, it queries a Recursive Resolver (usually provided by the ISP or a 
 The resolver then queries the Root Nameserver, which directs it to the Top-Level Domain (TLD) nameserver (e.g., for .com). 
 
 The TLD server points to the Authoritative Nameserver for the specific domain, which holds the actual DNS records and returns the final IP address. 
+
+<img width="2738" height="898" alt="image" src="https://github.com/user-attachments/assets/a1e2d423-0c73-4f73-88c8-6eb4d0e5dda9" />
+
 
  
 
