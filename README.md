@@ -2,9 +2,48 @@
 
 1. Linux Installation
 
+Installation and running of the virtual machine was successful and ran smoothly
+
 <img width="300" height="250" alt="Screenshot 2025-11-16 171259" src="https://github.com/user-attachments/assets/c0916352-5390-4fc0-90a8-cd520315b507" />
 
-2. Total Cost of Ownership
+<img width="300" height="250" alt="Screenshot 2025-11-16 171438" src="https://github.com/user-attachments/assets/8aca6d2a-8928-4e9f-9886-1513325fcb0e" />
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+Some useful and frequent commands used were: 
+
+Sudo – superuser do, written at the start of a command to run it as the root user. Some users do not have access to run certain commands 
+
+Ip a – Shows IP address 
+
+Nano – text editor for files 
+
+Cat – displays file in the terminal 
+
+ 
+
+Understanding and Applying Linux Permissions 
+
+Linux permissions, based on the concepts of Read, Write, and Execute for Owner, Group, and Others, are fundamental to multi-user system security. This lab demonstrated that incorrect permissions can lead to severe security vulnerabilities (e.g., a world-writable system file) or application failures. This knowledge is indispensable for security hardening and is a daily consideration for system administrators and security analysts. 
+
+Searching and Navigating the Linux File System 
+
+The find and grep commands were explored for efficient file system navigation and content searching.  
+
+ 
+
+These tools are critical for troubleshooting and log analysis, allowing administrators to quickly pinpoint issues without manually inspecting numerous files. This skill directly translates to roles in technical support and DevOps, where rapid problem identification is key. 
+
+# 6. Total Cost of Ownership
 
 Printer A – Inkjet
 Purchase cost: $120
@@ -68,44 +107,13 @@ Important for workgroups or shared office environments.
 These factors may outweigh pure cost in certain use cases.
 
 
+# 7. Provisioning and Securing a Cloud VM (Azure)
 
-
- 
-
- 
-
- 
-
-Some useful and frequent commands used were: 
-
-Sudo – superuser do, written at the start of a command to run it as the root user. Some users do not have access to run certain commands 
-
-Ip a – Shows IP address 
-
-Nano – text editor for files 
-
-Cat – displays file in the terminal 
-
- 
-
-Understanding and Applying Linux Permissions 
-
-Linux permissions, based on the concepts of Read, Write, and Execute for Owner, Group, and Others, are fundamental to multi-user system security. This lab demonstrated that incorrect permissions can lead to severe security vulnerabilities (e.g., a world-writable system file) or application failures. This knowledge is indispensable for security hardening and is a daily consideration for system administrators and security analysts. 
-
-Searching and Navigating the Linux File System 
-
-The find and grep commands were explored for efficient file system navigation and content searching.  
-
- 
-
-These tools are critical for troubleshooting and log analysis, allowing administrators to quickly pinpoint issues without manually inspecting numerous files. This skill directly translates to roles in technical support and DevOps, where rapid problem identification is key. 
-
-
-7. Provisioning and Securing a Cloud VM (AWS EC2)
-
-Creating a Cloud VM using Azure Web Services
+Creating a Cloud VM using Azure CLI.
 
 Reading was done and this is what i have learnt. Provisioning a cloud VM involves selecting an appropriate instance type, operating system image, and region. A critical security practice is the configuration of security groups, which act as a built-in firewall. The use of key pairs for SSH authentication, rather than passwords, is a fundamental security measure in the cloud. The core concepts of provisioning and securing a server are consistent across platforms, even if the specific management interface differs. This is a fundamental skill for cloud administration. 
+
+SSH using Azure CLI
 
 <img width="350" height="300" alt="image" src="https://github.com/user-attachments/assets/8ea656d7-4eb2-4c54-b51c-af0077c5940b" />
 
@@ -119,7 +127,16 @@ Reading was done and this is what i have learnt. Provisioning a cloud VM involve
 
 Automation is a cornerstone of efficient IT operations. In this lab, I wrote bash scripts to automate routine tasks, such as a script that updates the system packages and checks disk space. Understanding scripting and regex is what separates a junior administrator from a senior one, enabling the automation of complex deployment and monitoring tasks, a core principle of DevOps. 
 
- 
+ <img width="350" height="300" alt="Screenshot 2025-11-16 015142" src="https://github.com/user-attachments/assets/a3dd45cc-7f14-46f7-9a4f-1ddc9cd7c2b7" />
+<img width="350" height="300" alt="Screenshot 2025-11-16 015335" src="https://github.com/user-attachments/assets/e2784dda-2974-4cbe-b4e5-41b4d00b2fd9" />
+<img width="350" height="300" alt="Screenshot 2025-11-16 015403" src="https://github.com/user-attachments/assets/cc717d53-865c-45a9-87dc-4459ff9e6f2a" />
+<img width="350" height="300" alt="Screenshot 2025-11-16 015547" src="https://github.com/user-attachments/assets/0419a2c8-e695-4645-b97d-c69984a26fec" />
+<img width="350" height="300" alt="Screenshot 2025-11-16 015719" src="https://github.com/user-attachments/assets/82bea4ab-9d89-474a-928a-5557892d4497" />
+<img width="350" height="300" alt="Screenshot 2025-11-16 015755" src="https://github.com/user-attachments/assets/e60a3011-b4de-44b2-80f7-29c79fe62bc1" />
+<img width="350" height="300" alt="Screenshot 2025-11-16 021956" src="https://github.com/user-attachments/assets/d58f1dbc-b329-47f9-b0de-135becd05e81" />
+<img width="350" height="300" alt="Screenshot 2025-11-16 022101" src="https://github.com/user-attachments/assets/aa519288-ec59-4733-880f-939d188f4c20" />
+<img width="350" height="300" alt="Screenshot 2025-11-16 022459" src="https://github.com/user-attachments/assets/39628604-46b8-4d22-98e2-b8e4381a7417" />
+<img width="350" height="300" alt="Screenshot 2025-11-16 022601" src="https://github.com/user-attachments/assets/804dc279-bf02-4d57-adb2-5faaae961701" />
 
 Why do we use the shebang (#!/bin/bash) at the beginning of scripts? 
 
